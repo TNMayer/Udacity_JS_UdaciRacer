@@ -45,6 +45,12 @@ If you are using a windows machine:
 1. `cd` into the root of the project containing data.json 
 2. Run the following command to add the environment variable:
 ```set DATA_FILE=./data.json```
+3. Run the following command to add an additional environment variable:
+```set ORIGIN_ALLOWED=http://localhost:3000```
+4. Start the server:
+```start ./bin/server```
+5. Try a GET request on http://localhost:8000/api/tracks
+**Important**: Port is **8000**
 
 If you still run into issues running the API server on your machine, you can run this project in the Udacity classroom.
 
