@@ -21,11 +21,10 @@ body {
 }
 
 header {
-  background-image: url('https://via.placeholder.com/1150');
+  background-image: url('../images/header-banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +97,7 @@ footer {
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
   header {
-    height: 100vh;
+    max-height: 400px;
   }
 }
 
@@ -106,7 +105,7 @@ footer {
 
 @media (min-width: 1224px) {
   header {
-    height: 700px;
+    height: 400px;
   }
 }
 
@@ -114,6 +113,6 @@ footer {
 
 @media (min-width: 1824px) {
   header {
-    height: 700px;
+    height: 400px;
   }
 }
