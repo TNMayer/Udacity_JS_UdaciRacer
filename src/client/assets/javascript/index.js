@@ -126,8 +126,6 @@ function runRace(raceID) {
 		const raceInterval = setInterval(async () => {
 			try {
 				const race = await getRace(store.race_id);
-				// console.log(raceStatus);
-
 				/* 
 				TODO - if the race info status property is "in-progress", update the leaderboard by calling:
 				renderAt('#leaderBoard', raceProgress(res.positions))
